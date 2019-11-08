@@ -25,9 +25,13 @@ class LoginViewController: UIViewController {
     
     @IBAction func btnLogin(_ sender: Any)
     {
-        switch
+        switch validateLoginCredentials
+        {
+        case .valid: break
+        }
     }
     
 
 }
+
 
