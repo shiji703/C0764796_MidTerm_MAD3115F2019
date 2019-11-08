@@ -74,6 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Customers" id="ZDy-7E-b4o">
+                                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="d55-kB-kmv"/>
                                         <barButtonItem key="rightBarButtonItem" title="Add Customer" id="9Xt-kd-z3Z"/>
                                     </navigationItem>
                                 </items>
