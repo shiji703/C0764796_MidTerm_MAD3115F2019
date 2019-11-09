@@ -37,6 +37,20 @@ override func viewDidLoad() {
                 return cell
             }
         }
+    extension CustomerListTableViewController:UITableViewDelegate
+    {
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "ShowBillDetailsViewController") as? ShowBillDetailsViewController{
+                self.navigationController?.pushViewController(billDetailsVC, animated: true)
+            }
+        }
+    }
+extension CustomerListTableViewController:AddNewCustomerViewControllerDelegate{
+        func didSelectSaveBtn(_ name: String) {
+            self.customersArray.append(name)
+            self.tableView.reloadData()
+        }
+    }
     
 
 
