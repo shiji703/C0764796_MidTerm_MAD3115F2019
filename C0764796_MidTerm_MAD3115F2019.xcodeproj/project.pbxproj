@@ -21,6 +21,7 @@
 		9BDE4B1823763D6D005272C0 /* Internet copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1723763D6C005272C0 /* Internet copy.swift */; };
 		9BDE4B1A23763F5B005272C0 /* Customer copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1923763F5B005272C0 /* Customer copy.swift */; };
 		9BDE4B1C237640EE005272C0 /* IDisplay copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1B237640EE005272C0 /* IDisplay copy.swift */; };
+		9BDE4B1E23764123005272C0 /* MinuteExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1D23764123005272C0 /* MinuteExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9BDE4B1723763D6C005272C0 /* Internet copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Internet copy.swift"; sourceTree = "<group>"; };
 		9BDE4B1923763F5B005272C0 /* Customer copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer copy.swift"; sourceTree = "<group>"; };
 		9BDE4B1B237640EE005272C0 /* IDisplay copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IDisplay copy.swift"; sourceTree = "<group>"; };
+		9BDE4B1D23764123005272C0 /* MinuteExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		9BDE4B12237636C0005272C0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9BDE4B1D23764123005272C0 /* MinuteExt.swift */,
 				9BDE4B1B237640EE005272C0 /* IDisplay copy.swift */,
 				9BDE4B1923763F5B005272C0 /* Customer copy.swift */,
 				9BDE4B1723763D6C005272C0 /* Internet copy.swift */,
@@ -174,6 +177,7 @@
 				9BDE4B0D23763007005272C0 /* Global.swift in Sources */,
 				9B49103223760B1B0015517A /* LoginViewController.swift in Sources */,
 				9BDE4B1823763D6D005272C0 /* Internet copy.swift in Sources */,
+				9BDE4B1E23764123005272C0 /* MinuteExt.swift in Sources */,
 				9BDE4B1423763BC8005272C0 /* Bill copy.swift in Sources */,
 				9BDE4B1C237640EE005272C0 /* IDisplay copy.swift in Sources */,
 				9BDE4B0F23763108005272C0 /* ATButton.swift in Sources */,
