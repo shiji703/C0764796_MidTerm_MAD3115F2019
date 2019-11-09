@@ -15,6 +15,8 @@
 		9B49104223761C050015517A /* Midterm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49104123761C040015517A /* Midterm.jpeg */; };
 		9BDE4B0B23762B05005272C0 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */; };
 		9BDE4B0D23763007005272C0 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B0C23763006005272C0 /* Global.swift */; };
+		9BDE4B0F23763108005272C0 /* ATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B0E23763108005272C0 /* ATButton.swift */; };
+		9BDE4B1423763BC8005272C0 /* Bill copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1323763BC8005272C0 /* Bill copy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		9B49104123761C040015517A /* Midterm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Midterm.jpeg; sourceTree = "<group>"; };
 		9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 		9BDE4B0C23763006005272C0 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		9BDE4B0E23763108005272C0 /* ATButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATButton.swift; sourceTree = "<group>"; };
+		9BDE4B1323763BC8005272C0 /* Bill copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bill copy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		9B49102E23760B1B0015517A /* C0764796_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BDE4B12237636C0005272C0 /* Extensions */,
+				9BDE4B0E23763108005272C0 /* ATButton.swift */,
 				9BDE4B0C23763006005272C0 /* Global.swift */,
 				9B49102F23760B1B0015517A /* AppDelegate.swift */,
 				9B49103123760B1B0015517A /* LoginViewController.swift */,
@@ -71,6 +77,14 @@
 				9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */,
 			);
 			path = C0764796_MidTerm_MAD3115F2019;
+			sourceTree = "<group>";
+		};
+		9BDE4B12237636C0005272C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE4B1323763BC8005272C0 /* Bill copy.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 			files = (
 				9BDE4B0D23763007005272C0 /* Global.swift in Sources */,
 				9B49103223760B1B0015517A /* LoginViewController.swift in Sources */,
+				9BDE4B1423763BC8005272C0 /* Bill copy.swift in Sources */,
+				9BDE4B0F23763108005272C0 /* ATButton.swift in Sources */,
 				9BDE4B0B23762B05005272C0 /* CustomerListTableViewController.swift in Sources */,
 				9B49103023760B1B0015517A /* AppDelegate.swift in Sources */,
 			);
