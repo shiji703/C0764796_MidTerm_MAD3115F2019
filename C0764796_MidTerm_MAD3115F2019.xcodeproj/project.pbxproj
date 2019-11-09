@@ -26,6 +26,7 @@
 		9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B232376454E005272C0 /* DateExtension.swift */; };
 		9BDE4B262376505A005272C0 /* BillDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */; };
 		9BDE4B28237653B1005272C0 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */; };
+		9BDE4B2A23765556005272C0 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9BDE4B232376454E005272C0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
+		9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */,
 				9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */,
 				9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */,
+				9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */,
 			);
 			path = C0764796_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */,
 				9B49103223760B1B0015517A /* LoginViewController.swift in Sources */,
 				9BDE4B1823763D6D005272C0 /* Internet copy.swift in Sources */,
+				9BDE4B2A23765556005272C0 /* AddNewCustomerViewController.swift in Sources */,
 				9BDE4B1E23764123005272C0 /* MinuteExt.swift in Sources */,
 				9BDE4B1423763BC8005272C0 /* Bill copy.swift in Sources */,
 				9BDE4B1C237640EE005272C0 /* IDisplay copy.swift in Sources */,
