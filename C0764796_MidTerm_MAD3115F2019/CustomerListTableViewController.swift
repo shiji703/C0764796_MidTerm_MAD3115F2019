@@ -22,6 +22,9 @@ override func viewDidLoad() {
     {
         tableView.tableFooterView = .init()
     }
+    @IBAction func logoutBtnTapped(_ sender: Any) {
+           self.navigationController?.popViewController(animated: true)
+       }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
