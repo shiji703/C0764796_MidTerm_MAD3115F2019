@@ -24,6 +24,7 @@
 		9BDE4B2023764390005272C0 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1F23764390005272C0 /* CurrencyExtn.swift */; };
 		9BDE4B2223764445005272C0 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2123764445005272C0 /* DataUsed.swift */; };
 		9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B232376454E005272C0 /* DateExtension.swift */; };
+		9BDE4B262376505A005272C0 /* BillDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		9BDE4B1F23764390005272C0 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyExtn.swift; sourceTree = "<group>"; };
 		9BDE4B2123764445005272C0 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
 		9BDE4B232376454E005272C0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				9B49103823760B1D0015517A /* LaunchScreen.storyboard */,
 				9B49103B23760B1D0015517A /* Info.plist */,
 				9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */,
+				9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */,
 			);
 			path = C0764796_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDE4B0D23763007005272C0 /* Global.swift in Sources */,
+				9BDE4B262376505A005272C0 /* BillDetailsTableViewCell.swift in Sources */,
 				9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */,
 				9B49103223760B1B0015517A /* LoginViewController.swift in Sources */,
 				9BDE4B1823763D6D005272C0 /* Internet copy.swift in Sources */,
