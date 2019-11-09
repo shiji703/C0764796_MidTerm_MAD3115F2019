@@ -25,6 +25,20 @@ override func viewDidLoad() {
     @IBAction func logoutBtnTapped(_ sender: Any) {
            self.navigationController?.popViewController(animated: true)
        }
+    extension CustomerListTableViewController:UITableViewDataSource
+    {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return customersArray.count
+    }
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+        {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "cellID") else{return .init()}
+                cell.textLabel?.text = customersArray[indexPath.row]
+                return cell
+            }
+        }
+    
+
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
