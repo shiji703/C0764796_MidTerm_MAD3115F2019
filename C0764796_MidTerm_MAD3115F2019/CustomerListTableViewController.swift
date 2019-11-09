@@ -25,7 +25,7 @@ override func viewDidLoad() {
     @IBAction func logoutBtnTapped(_ sender: Any) {
            self.navigationController?.popViewController(animated: true)
        }
-    extension CustomerListTableViewController:UITableViewDataSource
+    CustomerListTableViewController:UITableViewDataSource
     {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return customersArray.count
@@ -37,7 +37,7 @@ override func viewDidLoad() {
                 return cell
             }
         }
-    extension CustomerListTableViewController:UITableViewDelegate
+    CustomerListTableViewController:UITableViewDelegate
     {
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             if let billDetailsVC = self.storyboard?.instantiateViewController(identifier: "ShowBillDetailsViewController") as? ShowBillDetailsViewController{
@@ -45,7 +45,7 @@ override func viewDidLoad() {
             }
         }
     }
-extension CustomerListTableViewController:AddNewCustomerViewControllerDelegate{
+ CustomerListTableViewController:AddNewCustomerViewControllerDelegate{
         func didSelectSaveBtn(_ name: String) {
             self.customersArray.append(name)
             self.tableView.reloadData()

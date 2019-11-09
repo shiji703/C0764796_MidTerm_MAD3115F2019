@@ -35,5 +35,11 @@ class AddNewBillViewController: UIViewController {
         setupTextFields()
     }
     
-    
+    func setupPicker(){
+            pickerView.delegate = self
+            enterBillTypeTextField.inputView = pickerView
+            enterBillTypeTextField.inputAccessoryView = toolBar
+        }
+        
+        
 }

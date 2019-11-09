@@ -49,9 +49,8 @@ class BillDetailsTableViewCell: UITableViewCell
                 billIdType.text = "Mobile"
     }
             providerName.text = "Shiji"
-            internetUsage.text = "15GB"
+            internetUsage.text = "40GB"
         
-
 }
 
 
