@@ -30,6 +30,11 @@ class BillDetailsTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    
+    func setupCell(_ bill:Bill){
+        billId.text = bill.billId
+        billIdDate.text = bill.billDate
+        billTotal.text = "\(bill.totalBillAmount ?? 0)"
+        
+    }
 
 }
