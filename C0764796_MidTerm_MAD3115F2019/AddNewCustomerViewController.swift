@@ -13,4 +13,28 @@ protocol AddNewCustomerViewControllerDelegate:NSObject
     func didSelectSaveBtn(_ name:String)
 }
 
-
+class AddNewCustomerViewController: UIViewController
+{
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    weak var delegate:AddNewCustomerViewControllerDelegate?
+    
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+    }
+    
+    @IBAction func saveBtntapped(_ sender: Any)
+    {
+        if nameTextField.text == ""
+        {
+            showAlert(withMessage: "Please add new customer name",viewController: self)
+        }else
+        {
+            delegate?.didSelectSaveBtn(nameTextField.text ?? "")
+            navigationController?.popViewController(animated: true)
+        }
+    }
+}

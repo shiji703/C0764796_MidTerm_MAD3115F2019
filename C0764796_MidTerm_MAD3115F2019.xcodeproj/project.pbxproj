@@ -24,9 +24,12 @@
 		9BDE4B2023764390005272C0 /* CurrencyExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B1F23764390005272C0 /* CurrencyExtn.swift */; };
 		9BDE4B2223764445005272C0 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2123764445005272C0 /* DataUsed.swift */; };
 		9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B232376454E005272C0 /* DateExtension.swift */; };
-		9BDE4B262376505A005272C0 /* BillDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */; };
+		9BDE4B262376505A005272C0 /* ShowBillDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B252376505A005272C0 /* ShowBillDetailsTableViewCell.swift */; };
 		9BDE4B28237653B1005272C0 /* AddNewBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */; };
 		9BDE4B2A23765556005272C0 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */; };
+		9BDE4B2C237657FF005272C0 /* ATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2B237657FE005272C0 /* ATButton.swift */; };
+		9BDE4B2E2376580C005272C0 /* ATErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2D2376580C005272C0 /* ATErrorMessage.swift */; };
+		9BDE4B302376581E005272C0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4B2F2376581E005272C0 /* String+Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +52,12 @@
 		9BDE4B1F23764390005272C0 /* CurrencyExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyExtn.swift; sourceTree = "<group>"; };
 		9BDE4B2123764445005272C0 /* DataUsed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
 		9BDE4B232376454E005272C0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9BDE4B252376505A005272C0 /* ShowBillDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBillViewController.swift; sourceTree = "<group>"; };
 		9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
+		9BDE4B2B237657FE005272C0 /* ATButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATButton.swift; sourceTree = "<group>"; };
+		9BDE4B2D2376580C005272C0 /* ATErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATErrorMessage.swift; sourceTree = "<group>"; };
+		9BDE4B2F2376581E005272C0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		9B49102E23760B1B0015517A /* C0764796_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BDE4B2B237657FE005272C0 /* ATButton.swift */,
 				9BDE4B12237636C0005272C0 /* Extensions */,
 				9BDE4B0C23763006005272C0 /* Global.swift */,
 				9B49102F23760B1B0015517A /* AppDelegate.swift */,
@@ -94,7 +101,7 @@
 				9B49103823760B1D0015517A /* LaunchScreen.storyboard */,
 				9B49103B23760B1D0015517A /* Info.plist */,
 				9BDE4B0A23762B05005272C0 /* CustomerListTableViewController.swift */,
-				9BDE4B252376505A005272C0 /* BillDetailsTableViewCell.swift */,
+				9BDE4B252376505A005272C0 /* ShowBillDetailsTableViewCell.swift */,
 				9BDE4B27237653B1005272C0 /* AddNewBillViewController.swift */,
 				9BDE4B2923765556005272C0 /* AddNewCustomerViewController.swift */,
 			);
@@ -113,6 +120,8 @@
 				9BDE4B1723763D6C005272C0 /* Internet copy.swift */,
 				9BDE4B1523763C0C005272C0 /* Hydro copy.swift */,
 				9BDE4B1323763BC8005272C0 /* Bill copy.swift */,
+				9BDE4B2D2376580C005272C0 /* ATErrorMessage.swift */,
+				9BDE4B2F2376581E005272C0 /* String+Validation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,17 +199,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDE4B0D23763007005272C0 /* Global.swift in Sources */,
-				9BDE4B262376505A005272C0 /* BillDetailsTableViewCell.swift in Sources */,
+				9BDE4B262376505A005272C0 /* ShowBillDetailsTableViewCell.swift in Sources */,
 				9BDE4B242376454E005272C0 /* DateExtension.swift in Sources */,
 				9B49103223760B1B0015517A /* LoginViewController.swift in Sources */,
 				9BDE4B1823763D6D005272C0 /* Internet copy.swift in Sources */,
 				9BDE4B2A23765556005272C0 /* AddNewCustomerViewController.swift in Sources */,
 				9BDE4B1E23764123005272C0 /* MinuteExt.swift in Sources */,
+				9BDE4B2C237657FF005272C0 /* ATButton.swift in Sources */,
 				9BDE4B1423763BC8005272C0 /* Bill copy.swift in Sources */,
 				9BDE4B1C237640EE005272C0 /* IDisplay copy.swift in Sources */,
 				9BDE4B2223764445005272C0 /* DataUsed.swift in Sources */,
 				9BDE4B2023764390005272C0 /* CurrencyExtn.swift in Sources */,
+				9BDE4B302376581E005272C0 /* String+Validation.swift in Sources */,
 				9BDE4B0B23762B05005272C0 /* CustomerListTableViewController.swift in Sources */,
+				9BDE4B2E2376580C005272C0 /* ATErrorMessage.swift in Sources */,
 				9BDE4B1A23763F5B005272C0 /* Customer copy.swift in Sources */,
 				9BDE4B1623763C0C005272C0 /* Hydro copy.swift in Sources */,
 				9BDE4B28237653B1005272C0 /* AddNewBillViewController.swift in Sources */,
